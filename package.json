@@ -1,10 +1,10 @@
 {
   "name": "kern",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Kern yer letters",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -13,16 +13,22 @@
   "keywords": [
     "kern",
     "kerning",
-    "no",
-    "jquery"
+    "typography",
+    "type"
   ],
-  "author": "Andrew Winterma",
+  "author": "Andrew Winterman",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AWinterman/kern/issues"
   },
   "homepage": "https://github.com/AWinterman/kern",
   "dependencies": {
-    "sizzle": "~1.1.0"
+    "domready": "~0.2.13"
+  },
+  "devDependencies": {
+    "browserify": "~2.34.3",
+    "hint-hint": "~0.4.0",
+    "tap": "~0.4.4",
+    "uglify-js": "~2.4.1"
   }
 }
