@@ -6,6 +6,8 @@
 <script src="/path/to/kern.js"></script>
 ```
 
+OR
+
 ```bash
 npm install kern
 ```
