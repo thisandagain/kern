@@ -1,14 +1,15 @@
 {
-  "name": "kern",
+  "name": "kern-js",
   "version": "0.0.1",
-  "description": "Kern yer letters",
+  "description": "Framework-less kerning support for browsers",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "build": "make build"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/AWinterman/kern.git"
+    "url": "git://github.com/thisandagain/kern.git"
   },
   "keywords": [
     "kern",
@@ -16,15 +17,15 @@
     "typography",
     "type"
   ],
-  "author": "Andrew Winterman",
+  "author": "Andrew Sliwinski <andrew@diy.org>",
+  "contributors": [
+    {
+      "name": "Andrew Winterman",
+      "email": "andywinterman@gmail.com"
+    }
+  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AWinterman/kern/issues"
-  },
-  "homepage": "https://github.com/AWinterman/kern",
-  "dependencies": {
-    "domready": "~0.2.13"
-  },
+  "dependencies": {},
   "devDependencies": {
     "hint-hint": "~0.4.0",
     "tap": "~0.4.4",

@@ -9,7 +9,7 @@
 OR
 
 ```bash
-npm install kern
+npm install kern-js
 ```
 
 ### Basic Use
