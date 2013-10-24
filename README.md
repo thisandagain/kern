@@ -19,7 +19,7 @@ npm install microkern
 
 ```js
 var element = document.getElementById('kernMe');
-microkern(element, [
+kern(element, [
     1, -2, 5, 10, -12, 2, 1, 2, 3, 4, -5, -1
 ]);
 ```
