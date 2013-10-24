@@ -1,15 +1,15 @@
-### Kern
+### Microkern
 #### Framework-less kerning support for browsers
 
 ### Installation
 ```html
-<script src="/path/to/kern.js"></script>
+<script src="/path/to/microkern.js"></script>
 ```
 
 OR
 
 ```bash
-npm install kern-js
+npm install microkern
 ```
 
 ### Basic Use
@@ -19,7 +19,7 @@ npm install kern-js
 
 ```js
 var element = document.getElementById('kernMe');
-kern(element, [
+microkern(element, [
     1, -2, 5, 10, -12, 2, 1, 2, 3, 4, -5, -1
 ]);
 ```
@@ -31,5 +31,5 @@ npm test
 
 ### To Build
 ```bash
-make build
+npm build
 ```

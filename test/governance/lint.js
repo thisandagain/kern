@@ -1,7 +1,7 @@
 /**
  * Code governance using jshint.
  *
- * @package kern
+ * @package microkern
  * @author Andrew Sliwinski <andrew@diy.org>
  */
 
@@ -14,7 +14,6 @@ var hint    = require('hint-hint');
  * Execute
  */
 hint(__dirname + '/../../lib/*.js', {
-    "browser": true,
     "bitwise": true,
     "devel": true,
     "eqeqeq": true,
@@ -29,5 +28,10 @@ hint(__dirname + '/../../lib/*.js', {
     "quotmark": "single",
     "undef": true,
     "unused": true,
-    "maxlen": 80
+    "maxlen": 80,
+    "globals": {
+        "window": true,
+        "define": true,
+        "module": true
+    }
 });

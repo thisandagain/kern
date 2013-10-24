@@ -1,9 +1,9 @@
 /**
  * Framework-less kerning support for browsers.
  *
- * @package kern
- * @author Andrew Winterman <andywinterman@gmail.com>
- *         Andrew Sliwinski <andrew@diy.org>
+ * @package microkern
+ * @author Andrew Sliwinski <andrew@diy.org>
+ *         Andrew Winterman <andywinterman@gmail.com>
  */
 
 (function () {
