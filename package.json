@@ -1,6 +1,6 @@
 {
   "name": "microkern",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Framework-less kerning support for browsers.",
   "main": "./lib/index.js",
   "scripts": {
